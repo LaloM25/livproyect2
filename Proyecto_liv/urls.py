@@ -20,5 +20,6 @@ from liv import views
 
 urlpatterns = [
     path('', views.index_view, name='index_view'),
+    path('flower/', views.flower_view, name='flower_view'),
     path('admin/', admin.site.urls),
 ]
